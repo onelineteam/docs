@@ -1,0 +1,36 @@
+# 注释规则
+
+## 文件头规范
+文件头注释需要在创建文件的由当前用户加入, 如果文档修改了, 也需要加入更新的时间,作者及修改内容
+```javascript
+/**
+* @file
+* 当前文件的主要功能说明
+* @author towaywu@gmail.com
+* @date 2018-05-20
+* @update 2018-05-21 towaywu@gmail.com
+* 更新功能的内容说明写在这里
+* @update 2018-05-21 other@gmail.com
+* 更新功能的内容说明写在这里
+*/
+```
+
+## 注释通用规范
+
+> 注释规范按照JsDoc的格式来进行约束
+
+```javascript
+/**
+* 用户构造函数
+* @constructor
+* @author towaywu@gmail.com
+* @date 2018-05-20
+* @update 2018-05-21 towaywu@gmail.com
+* 加入参数name, age
+* @param {string} name - 名称
+* @param {number} age - 年龄
+*/
+function Person(name, age) {
+
+}
+```
