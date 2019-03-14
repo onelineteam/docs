@@ -1,10 +1,15 @@
 # 工作流
 
 ## 主要分支
-master
-dev
-release
-hotfix_{date}
+
+master: 主分支
+
+dev: 新需求开发分支
+
+release: 发行分支
+
+hotfix_{date}： 发行后的bug修复分支
+
 
 ## 提交
 
