@@ -16,6 +16,15 @@ hotfix_{date}
 ### 提交方式
 
 feat: 新增功能
+
 fix: 修复问题
+
 change: 调整某一个功能
+
 delete: 删除某一个功能
+
+chore: 杂物，零碎的事情
+
+init: 初始化项目
+
+build: 发行项目
